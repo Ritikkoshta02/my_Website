@@ -17,9 +17,9 @@ $(document).ready(function () {
         $(".navbar-menu").toggleClass("active");
     });
 
-    $(".works").magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: { enabled: true }
-    });
+    // $(".works").magnificPopup({
+    //     delegate: 'a',
+    //     type: 'image',
+    //     gallery: { enabled: true }
+    // });
 });
