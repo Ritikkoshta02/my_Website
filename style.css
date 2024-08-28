@@ -413,17 +413,13 @@ section.svs .section-title::after{
     transform: scale(1.6) rotate(25deg);
   }
   
-/*   .work:hover::before,
+  .work:hover::before,
   .work:hover .info
   {
     opacity: 1;
     transform: scale(1);
-  } */
-.work:hover::before {
-  background-color: #ffffff; /* Updated hover color to white */
-  opacity: 1;
-  transform: scale(1);
-}
+  }
+
 
 .work:hover .info {
   opacity: 1;
